@@ -1,0 +1,29 @@
+.not-visible {
+    display: none;
+}
+
+.rotate-left {
+
+    -webkit-transform:rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+}
+
+.rotate-right {
+
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2px 5px
+}
